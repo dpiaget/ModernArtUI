@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_modern_art_ui"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="3dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="#000000"
+    tools:context="course.example.modernartui.ModernArtUI">
+
+    <TextView
+        android:id="@+id/view_1"
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:background="#00bfff"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        />
+
+    <TextView
+        android:id="@+id/view_2"
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/view_1"
+        android:layout_alignParentStart="true"
+        android:background="#f700ff"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        />
+
+    <TextView
+        android:id="@+id/view_3"
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/view_2"
+        android:layout_alignParentStart="true"
+        android:background="#ff0000"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        />
+
+    <TextView
+        android:id="@+id/view_4"
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/view_3"
+        android:layout_alignParentStart="true"
+        android:background="#3cff00"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        />
+
+
+    <TextView
+        android:id="@+id/view_5"
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:layout_toRightOf="@id/view_1"
+        android:background="#4e00f7"
+        android:layout_marginBottom="2dp"
+        />
+
+    <TextView
+        android:id="@+id/view_6"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/view_5"
+        android:layout_toRightOf="@id/view_3"
+        android:background="#ffffff"
+        android:layout_marginBottom="2dp"
+        />
+
+
+    <TextView
+        android:id="@+id/view_7"
+        android:layout_width="150dp"
+        android:layout_height="145dp"
+        android:layout_below="@id/view_6"
+        android:layout_toRightOf="@id/view_2"
+        android:background="#f2ff00"
+        android:layout_marginBottom="2dp"
+        />
+
+
+    <SeekBar
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/seekBar" />
+
+</RelativeLayout>
